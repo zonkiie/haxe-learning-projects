@@ -14,7 +14,7 @@ class Inner
   
 }
 
-class Test {
+class Example1 {
   static function main() {
     var inner:Inner = new Inner("Testname");
     trace("Inner:" + inner.getName());
